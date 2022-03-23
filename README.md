@@ -22,8 +22,6 @@ MongoDB provides the following methods to insert documents into a collection:
 
 *db.collection.insertMany();*
 
-![image.png](attachment:fedf0ff6-9d5d-484d-882a-0bc5e105b309.png)
-
 #### Read Operations
 Read operations retrieves documents from a collection; i.e. queries a collection for documents. 
 MongoDB provides the following methods to read documents from a collection:
@@ -31,8 +29,6 @@ MongoDB provides the following methods to read documents from a collection:
 *db.collection.find();*
 
 You can specify query filters or criteria that identify the documents to return.
-
-![image.png](attachment:34950dce-f747-4baa-ae63-e0d11b3603b6.png)
 
 #### Update Operations
 Update operations modify existing documents in a collection. 
@@ -47,8 +43,6 @@ MongoDB provides the following methods to update documents of a collection:
 You can specify criteria, or filters, that identify the documents to update.
 These filters use the same syntax as read operations.
 
-![image.png](attachment:13664d2c-0a5b-431c-8700-365c830ebbc0.png)
-
 #### Delete Operations
 Delete operations remove documents from a collection. 
 MongoDB provides the following methods to delete documents of a collection:
@@ -60,7 +54,6 @@ MongoDB provides the following methods to delete documents of a collection:
 You can specify criteria, or filters, that identify the documents to remove. 
 These filters use the same syntax as read operations.
 
-![image.png](attachment:f3470b5f-9b18-447a-be39-0a87205fcc86.png)
 
 
 ```python
@@ -77,7 +70,6 @@ These filters use the same syntax as read operations.
 
 # Case study
 
-![case.PNG](attachment:d6ca35a0-3b8a-4369-a9c3-0b2db9dab566.PNG)
 
 
 ```python
@@ -225,7 +217,10 @@ for dt in dtcursor:
 
 # Exercise
 ### 1. Convert the following table and insert the data into MongoDB collection: 
-![image.png](attachment:9c9fde96-a4ea-4193-bcae-86e8d9970d37.png)
+[[case.png]]
+![](../../blob/master/case.png)
+[[case.PNG]]
+
 
 ### 2. Create function/s to get the value of
 - Average of Blood Sugar from all the patients data
