@@ -217,9 +217,7 @@ for dt in dtcursor:
 
 # Exercise
 ### 1. Convert the following table and insert the data into MongoDB collection: 
-[[case.png]]
-![](../../blob/master/case.png)
-[[case.PNG]]
+![](https://github.com/011113-BigData/mongodb-example/raw/main/case.png)
 
 
 ### 2. Create function/s to get the value of
